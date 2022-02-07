@@ -1,0 +1,151 @@
+.should-be-centered {
+  text-align: center;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.sub-title {
+  text-align: center;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.green-container {
+  background: #76ad8e;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 30%;
+  margin-right: 20%;
+  width: 40%;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+}
+
+.green-container:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.green-container:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.pink-container {
+  background: #dfbce8;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 30%;
+  margin-right: 20%;
+  width: 40%;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+}
+
+.blue-container {
+  padding:12 px;
+  background: #8ab1db;
+  color: black
+}
+
+.image-style img {
+  max-width: 100%;
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 25%;
+  margin-right: 20%;
+  width: 40%;
+}
+
+.container {
+  position: relative;
+  width: 60%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #878787;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.menu img {
+  width: 100%;
+  width: 49%;
+  display: inline-block;
+}
+
+@media all and (max-width:30em){
+ .button-18{
+  display:block;
+  margin:0.2em auto;
+ }
