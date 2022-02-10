@@ -88,6 +88,7 @@
   max-width: 100%;
 }
 
+/*reservation button*/
 .button {
   border: none;
   color: black;
@@ -118,6 +119,7 @@
   backface-visibility: hidden;
 }
 
+/*hover over restaurant description*/
 .middle {
   transition: .3s ease;
   opacity: 0;
