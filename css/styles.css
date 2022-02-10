@@ -17,6 +17,7 @@
   width: 100%;
 }
 
+/*restaurant name bars*/
 .green-container {
   background: #76ad8e;
   color: black;
@@ -26,7 +27,7 @@
   margin: 2px 5px;
   transition-duration: 0.4s;
   cursor: pointer;
-  margin-left: 30%;
+  margin-left: 33%;
   margin-right: 20%;
   width: 40%;
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -39,17 +40,6 @@
   min-width: 0px;
 }
 
-.green-container:active {
-  background: #09223b;
-  color: rgb(255, 255, 255, .7);
-}
-
-.green-container:disabled {
-  cursor: not-allowed;
-  background: rgba(0, 0, 0, .08);
-  color: rgba(0, 0, 0, .3);
-}
-
 .pink-container {
   background: #dfbce8;
   color: black;
@@ -59,7 +49,7 @@
   margin: 2px 5px;
   transition-duration: 0.4s;
   cursor: pointer;
-  margin-left: 30%;
+  margin-left: 33%;
   margin-right: 20%;
   width: 40%;
   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -73,9 +63,25 @@
 }
 
 .blue-container {
-  padding:12 px;
   background: #8ab1db;
-  color: black
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 33%;
+  margin-right: 20%;
+  width: 40%;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
 }
 
 .image-style img {
@@ -93,7 +99,7 @@
   margin: 2px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  margin-left: 25%;
+  margin-left: 28%;
   margin-right: 20%;
   width: 40%;
 }
@@ -113,7 +119,7 @@
 }
 
 .middle {
-  transition: .5s ease;
+  transition: .3s ease;
   opacity: 0;
   position: absolute;
   top: 50%;

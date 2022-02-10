@@ -9,3 +9,7 @@ $('.green-container').on('click', function () {
     visible = false
   }
 })
+
+$('#perse-menu').on('click', function() {
+	$(".should-be-centered").html("<img src='https://upload.wikimedia.org/wikipedia/en/9/94/Sublime_Self-Titled.jpg'/>");
+})
